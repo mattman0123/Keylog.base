@@ -49,7 +49,7 @@ msg.attach(part)
 # The server of which to send through 
 server = smtplib.SMTP('smtp.gmail.com', 587)
 server.starttls()
-server.login(fromaddr, "mattywow0123")
+server.login(fromaddr, "PW")
 
 # convert the MSG array into a string format
 text = msg.as_string()
